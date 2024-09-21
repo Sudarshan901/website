@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>vcube</title>
+        <style>
+            body{
+              /* background-image: url(pexels-photo-326055\ msr.jpeg); */
+              /*  background-color: rgb(150, 166, 167); */
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: linear-gradient(to bottom right, rgb(88, 247, 114), yellow)
+
+            }
+            .outerbox {
+                width: 800px;
+                height: 500px;
+                border: 1px solid black;
+                padding: 10px;
+                margin: 10px;
+                background-color:rgb(252, 148, 30);
+                border-radius: 30px;
+            }
+            .innerbox {
+                width: 280px;
+                height: 300px;
+                position: absolute;   
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%); 
+                border: 2px solid rgb(141, 100, 165);
+                background-color:white;
+                border-radius: 30px;
+            }
+            .innerbox input{
+                width: 80%;
+                height: 40px;
+                border-radius: 8px;
+            }
+            .innerbox input[type=submit]{
+                height: 45px;
+                background-color: blue;
+                border-radius: 8px;
+                font-size:larger;
+            }
+            .innerbox p{
+                color: rgb(35, 35, 92);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div>
+          <center><h1>vcube login page</h1></center>
+        </div>
+        <center><div class="outerbox">
+           <div class="innerbox"><br><br>
+            <input type="text" placeholder="Enter Email"><br><br>
+            <input type="text" placeholder="Enter Password"><br>
+            <u><p>Forgot Password</p></u>
+            <input type="submit" value="Login"><br>
+            <u><h5>New User?<font style="color: blue;"><a href="register.html">Register!</a></font></h5></u>     
+        </div></center>
+        </div>
+        <section>
+            <h2><a href="vcube webpage.html">Home</a></h2>
+            <hr/>
+        </section>   
+    </body>
+</html>

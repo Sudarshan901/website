@@ -1,0 +1,83 @@
+body{
+    background-image: url(pexels-photo-326055\ msr.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    background-color:rgb(243, 238, 238);
+
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+#logo img{
+    width: 500px;
+    height: 365px;
+    position: relative;
+    top: 100px;
+    left:50px;
+    margin-left: 190px;
+}
+#logo p{
+    margin-top: 0px;
+}
+#right #box{
+    width:360;
+    height: 400px;
+    position: relative;
+    top:97px;
+    right: 20px;
+    background-color: rgb(245, 247, 248);
+}
+
+#box{
+    width: 300px;
+    height: 60px;
+    padding: 20px;
+    border: 3px solid rgb(247, 244, 244);
+    margin: 0;
+    margin-right: 200px;
+    margin-top: -50px;
+    box-shadow: 10px 10px rgb(206, 209, 209);
+    
+}
+
+
+#textbox input{
+
+    width:90%;
+    height: 40px;
+}
+#textbox h4{
+
+    color:blue;
+    top:10px;
+    font-weight:9px;
+    
+}
+
+#textbox input[type=submit]{
+    height: 45px;
+    background-color: blue;
+    border-radius: 5px;
+    font-size:larger;    
+}
+
+#textbox h{
+    top: 30px;
+}
+
+#textbox p{
+    margin-left: 150px;
+    color:blue
+}
+#textbox label{
+    margin-right:245px ;
+}
+#textbox h5{
+    color:blue
+}

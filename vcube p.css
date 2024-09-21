@@ -1,0 +1,25 @@
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+}
+  
+.left, .right {
+    width: 25%;
+}
+  
+.middle {
+    width: 50%;
+}
+div.a {
+    font-size: 23px;
+  }
